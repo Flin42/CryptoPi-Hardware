@@ -13,7 +13,7 @@ from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
 
-url = "http://192.168.56.1:8080/transactions/createTransaction" #put actual url here
+url = "" #put actual url here
 pictureUrl = ""
 
 #block_number = 14
