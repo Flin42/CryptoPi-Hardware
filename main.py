@@ -78,7 +78,7 @@ def getMoney():
             return money
             
 def getButton(): 
-    GPIO.setwarnings(False) # Ignore warning for now
+    GPIO.setwarnings(False) #False = Ignore warnings
     GPIO.setmode(GPIO.BOARD) # Use physical pin numbering
     GPIO.setup(10, GPIO.IN, pull_up_down=GPIO.PUD_DOWN) # Set pin 10 to be an input pin and set initial value to be pulled low (off)
     GPIO.setup(8, GPIO.IN, pull_up_down=GPIO.PUD_DOWN) # Set pin 8 to be an input pin and set initial value to be pulled low (off)
