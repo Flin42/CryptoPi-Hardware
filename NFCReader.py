@@ -6,9 +6,8 @@ import RPi.GPIO as GPIO
 pn532 = PN532_SPI(cs=4, reset=20, debug=False)
 pn532.SAM_configuration()
 
-block_number = 16
+block_number = 16 #Data will be written to this block
 key_a = b'\xFF\xFF\xFF\xFF\xFF\xFF'
-walletName = 'PiOne'
 
 def readCard():
     pn532 = PN532_SPI(cs=4, reset=20, debug=False)

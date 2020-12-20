@@ -13,7 +13,7 @@ from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
 
-url = "" #put actual url here
+url = "" #SERVER URL
 pictureUrl = ""
 
 #block_number = 14
